@@ -1,0 +1,69 @@
+.root {
+    -fx-font-size: 13px;
+    -fx-accent: #2563eb;
+    -fx-focus-color: #2563eb;
+}
+
+.heading { -fx-font-size: 20px; -fx-font-weight: bold; }
+.card-title { -fx-font-size: 14px; -fx-font-weight: bold; }
+.section { -fx-font-weight: bold; -fx-padding: 6 0 0 0; }
+.muted { -fx-text-fill: #64748b; }
+.error { -fx-text-fill: #b91c1c; }
+.warning { -fx-text-fill: #92400e; }
+
+.button.primary { -fx-base: #2563eb; -fx-text-fill: white; }
+
+.header {
+    -fx-padding: 10 14 10 14;
+    -fx-background-color: white;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 0 0 1 0;
+}
+
+.banner-reminder, .banner-error { -fx-padding: 8 14 8 14; }
+.banner-reminder { -fx-background-color: #fef3c7; -fx-text-fill: #78350f; }
+.banner-error { -fx-background-color: #fee2e2; -fx-text-fill: #991b1b; }
+
+.page { -fx-padding: 14; }
+
+.card {
+    -fx-padding: 12;
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 6;
+}
+
+.badge {
+    -fx-padding: 2 8 2 8;
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+}
+.risk-overdue { -fx-background-color: #fee2e2; -fx-text-fill: #991b1b; }
+.risk-at_risk { -fx-background-color: #ffedd5; -fx-text-fill: #9a3412; }
+.risk-tight { -fx-background-color: #fef3c7; -fx-text-fill: #854d0e; }
+.risk-on_track { -fx-background-color: #dcfce7; -fx-text-fill: #166534; }
+
+.day {
+    -fx-padding: 8;
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 6;
+}
+.day.today { -fx-border-color: #2563eb; -fx-border-width: 2; }
+.day.overloaded .progress-bar { -fx-accent: #dc2626; }
+.day .progress-bar { -fx-pref-height: 14; }
+
+.chip { -fx-padding: 4 6 4 6; -fx-background-color: #f1f5f9; -fx-background-radius: 4; }
+.chip-due { -fx-background-color: #dbeafe; }
+.chip-done { -fx-text-fill: #64748b; }
+
+.login { -fx-background-color: #f1f5f9; }
+.login-card {
+    -fx-padding: 20 24 20 24;
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8;
+}
