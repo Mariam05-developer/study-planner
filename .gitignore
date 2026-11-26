@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+*.db
+client/build/
+client/lib/
+
+# Java 
+*.class
+*.jar
+client/build/
+client/lib/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local application data
+*.db
+*.sqlite
+*.sqlite3
+guest.json
